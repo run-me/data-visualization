@@ -1,0 +1,1 @@
+# Bar graph using housing price
