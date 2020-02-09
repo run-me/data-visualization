@@ -18,6 +18,9 @@ plt.xlabel("year built -->")
 plt.ylabel("price in USD -->")
 
 plt.legend()
+# plt.tight_layout()
+plt.grid(True)
 
 plt.title('House price in USD by built year')
+plt.savefig('./line_graph.png')
 plt.show()
