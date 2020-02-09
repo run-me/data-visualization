@@ -1,10 +1,7 @@
 import matplotlib.pyplot as plt
 import pandas as pd
-import numpy as np
 
-style = plt.style.use('ggplot')
-
-plt.style.use(style)
+plt.style.use('ggplot')
 data_path = "/home/mash-tensor/universe/dev/github-runme/data-visualization/data/housing_prices/train.csv"
 data = pd.read_csv(data_path)
 
@@ -22,5 +19,5 @@ plt.ylabel("price in USD -->")
 
 plt.legend()
 
-plt.title('House price in USD by built year style of the plot {}'.format(style))
+plt.title('House price in USD by built year')
 plt.show()
