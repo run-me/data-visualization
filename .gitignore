@@ -130,3 +130,4 @@ dmypy.json
 .idea/
 /data/housing_prices/.~lock.train.csv#
 /data/data_dump/
+*.zip
